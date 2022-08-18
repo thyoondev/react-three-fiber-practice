@@ -5,7 +5,7 @@ function App() {
     <div id="canvas-container">
       <Canvas>
         <mesh>
-          <boxGeometry />
+          <boxGeometry args={[2, 2, 2]} />
           <meshStandardMaterial />
         </mesh>
       </Canvas>
